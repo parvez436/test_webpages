@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Profile</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="profile-container">
+        <button onclick="goBack()" class="back-btn">← Back to Faculty List</button>
+        <div class="faculty-profile">
+            <img id="faculty-photo" src="" alt="Faculty Photo">
+            <h2 id="faculty-name"></h2>
+            <p id="faculty-designation"></p>
+            <p id="faculty-qualification"></p>
+        </div>
+        <div class="profile-details">
+            <h3>Personal Details</h3>
+            <p><strong>Date of Birth:</strong> <span id="dob"></span></p>
+            <p><strong>Father's Name:</strong> <span id="father-name"></span></p>
+            <p><strong>Home Town:</strong> <span id="home-town"></span></p>
+
+            <h3>Teaching Experience</h3>
+            <ul id="teaching-experience"></ul>
+
+            <h3>State Level Committee Memberships</h3>
+            <ul id="memberships"></ul>
+
+            <h3>AICTE Grants Sanctioned</h3>
+            <ul id="grants"></ul>
+        </div>
+    </div>
+
+    <script src="profile.js"></script>
+</body>
+</html>

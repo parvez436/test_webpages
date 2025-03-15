@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    max-width: 90%;
+    margin: 20px auto;
+    background: #2eff38;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    font-weight: bold;
+}
+
+.faculty-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.faculty-card {
+    background: #fff;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.faculty-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.faculty-card h3 {
+    margin: 5px 0;
+    color: #333;
+}
+
+.faculty-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.faculty-card .email {
+    color: inherit; /* Keeps text color same as the surrounding text */
+    text-decoration: none; /* Removes underline */
+    font-weight: normal; /* Keeps normal font weight */
+}
+
+.faculty-card a:hover {
+    background: #0056b3;
+}
+.view-profile-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.view-profile-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+@media (max-width: 768px) {
+    .faculty-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faculty-card {
+        width: 90%; /* Make cards take most of the screen width */
+        height: auto;
+    }
+
+    .faculty-card img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+/* Make the profile page text size responsive */
+@media (max-width: 600px) {
+    .profile-container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .faculty-profile img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .back-btn {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}
