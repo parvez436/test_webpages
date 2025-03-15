@@ -9,9 +9,10 @@ body {
 
 /* Profile Container */
 .profile-container {
+    top:10px;
     max-width: 80%;
     margin: 30px auto;
-    background: #ffffff;
+    background: #fcf3f3;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -19,11 +20,13 @@ body {
 
 /* Faculty Profile */
 .faculty-profile {
+    
     text-align: center;
     margin-bottom: 20px;
 }
 
 .faculty-profile img {
+    top: 30px;
     width: 160px;
     height: 160px;
     border-radius: 50%;
@@ -67,7 +70,7 @@ body {
 /* Back Button */
 .back-btn {
     position: absolute;  /* Position the button */
-    top: 30px;  /* Distance from the top */
+    top: 0px;  /* Distance from the top */
     left: 9%; /* Distance from the left */
     background: #007BFF;
     color: white;
