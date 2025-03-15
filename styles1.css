@@ -9,7 +9,7 @@ body {
 
 /* Profile Container */
 .profile-container {
-    top:10px;
+    top:0px;
     max-width: 80%;
     margin: 30px auto;
     background: #fcf3f3;
